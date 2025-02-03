@@ -1,0 +1,43 @@
+.about-us-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .mission-vision-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between the containers */
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .mission-container, .vision-container {
+    width: 50%; /* Each container takes half the width */
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .mission-container:hover, .vision-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6;
+  }
+  

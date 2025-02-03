@@ -1,0 +1,138 @@
+/* General Reset and Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Matching font */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #fff; /* White text color for better contrast */
+  background: linear-gradient(120deg, #00a884, #1b9cfc); /* Gradient background */
+  text-align: center;
+}
+
+.header {
+  background-color: transparent; /* Match header with background */
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff; /* White text for consistency */
+  text-decoration: none;
+  padding: 8px 12px; /* Add padding for clickable area */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  background-color: rgba(255, 255, 255, 0.2); /* Light background on hover and focus */
+  color: #1b9cfc; /* Change text color on hover and focus */
+}
+
+.hero {
+  flex-grow: 1;
+  background-size: cover;
+  padding: 30px 20px;
+  color: white;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Matching font */
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for background and scale effect */
+}
+
+.cta-button:hover {
+  background-color: #4fa3d1; /* Slightly darker shade for hover effect */
+  transform: scale(1.1); /* Enlarge the button on hover */
+}
+
+/* Features Section with White Containers */
+.features-container {
+  padding: 50px 20px;
+  color: #333; /* Dark text color */
+}
+
+.feature-title {
+  color: #000080; /* Dark blue title */
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Matching font */
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  color: #333;
+}
+
+.feature-item {
+  width: 30%;
+  background-color: white; /* White background for each feature item */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
+  text-align: left;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px); /* Move up on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Elevate shadow on hover */
+}
+
+.checkmark {
+  color: #00a884;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Footer matching background gradient */
+.footer {
+  background: linear-gradient(120deg, #0046a8, #1bcffc); /* Match footer with background */
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: auto; /* Push the footer to the bottom */
+  position: static;
+}

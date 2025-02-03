@@ -1,0 +1,94 @@
+.input-form-container {
+  position: relative;
+}
+
+.analysis-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-area {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 150px; /* Increase height for a much bigger text area */
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00a884;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Space between buttons */
+}
+
+button:hover {
+  background-color: #008f75;
+}
+
+.result {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.view-comments-button {
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto; /* Center button */
+  padding: 10px 20px;
+  background-color: #00a884;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-comments-button:hover {
+  background-color: #008f75;
+}
+
+.comments-list {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  list-style: none; /* Remove default list styling */
+  display: none; /* Initially hidden */
+}
+
+.input-form-container:hover .comments-list {
+  display: block; /* Show comments on hover */
+}
+
+.comments-list h2 {
+  margin-bottom: 20px;
+}
+
+.comments-list li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
